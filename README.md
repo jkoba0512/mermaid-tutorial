@@ -2,25 +2,12 @@
 
 理工系大学生が **Mermaid** でフローチャート・シーケンス図・クラス図・
 状態遷移図・ER 図・ガントチャートを描けるようになることを目的とした
-日本語チュートリアルです。MkDocs Material で組まれており、GitHub Pages
-で公開されます。
+日本語チュートリアルです。
 
-## ローカルでプレビュー
+**👉 公開サイト: <https://jkoba0512.github.io/mermaid-tutorial/>**
 
-```bash
-uv sync
-uv run mkdocs serve
-```
-
-ブラウザで <http://127.0.0.1:8000> を開きます。
-
-## ビルド
-
-```bash
-uv run mkdocs build
-```
-
-`site/` ディレクトリに静的サイトが生成されます。
+MkDocs Material で組まれており、`main` ブランチへの push をトリガーに
+GitHub Actions が自動でビルド・デプロイします。
 
 ## 写真の再取得
 
@@ -29,20 +16,6 @@ Wikimedia Commons から CC/PD 画像をダウンロードしなおすには：
 ```bash
 uv run scripts/download_photos.py
 ```
-
-## GitHub Pages への公開手順
-
-1. GitHub 上に新しいリポジトリを作る
-2. このディレクトリで以下を実行（リポジトリ URL を置き換えて）：
-   ```bash
-   git remote add origin https://github.com/<USER>/<REPO>.git
-   git branch -M main
-   git push -u origin main
-   ```
-3. GitHub のリポジトリ設定 → **Settings → Pages** で  
-   **Source: GitHub Actions** を選択
-4. `main` への push 後、Actions タブで `Deploy MkDocs site to GitHub Pages`
-   ワークフローが緑になれば、公開 URL は `https://<USER>.github.io/<REPO>/`
 
 ## ファイル構成
 
