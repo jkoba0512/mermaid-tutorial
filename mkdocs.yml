@@ -1,0 +1,89 @@
+site_name: Mermaid 入門 — 理工系大学生のための図とフロー作成
+site_description: Markdown 未経験者向けに、Mermaid を使ってフローチャートやガントチャートなどを書けるようになるためのチュートリアル
+site_author: jkoba
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: ja
+  font:
+    text: Noto Sans JP
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - はじめに: index.md
+  - 第0章 5分で試す: 00-setup.md
+  - 第1章 Mermaid の文法ルール: 01-basics.md
+  - 第2章 フローチャート: 02-flowchart.md
+  - 第3章 シーケンス図: 03-sequence.md
+  - 第4章 クラス図: 04-class.md
+  - 第5章 状態遷移図: 05-state.md
+  - 第6章 ER 図: 06-er.md
+  - 第7章 ガントチャート: 07-gantt.md
+  - 付録A チートシート: 08-cheatsheet.md
+  - 付録B つまずきポイント FAQ: 09-faq.md
+  - 画像の出典: credits.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.mark
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/
+
+extra_css:
+  - stylesheets/extra.css

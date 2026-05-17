@@ -1,0 +1,9 @@
+[project]
+name = "mermaid-tutorial"
+version = "0.1.0"
+description = "理工系大学生のための Mermaid 入門チュートリアル"
+requires-python = ">=3.11"
+dependencies = [
+    "mkdocs-material>=9.5.0",
+    "pymdown-extensions>=10.0",
+]
