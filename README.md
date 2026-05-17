@@ -9,14 +9,6 @@
 MkDocs Material で組まれており、`main` ブランチへの push をトリガーに
 GitHub Actions が自動でビルド・デプロイします。
 
-## 写真の再取得
-
-Wikimedia Commons から CC/PD 画像をダウンロードしなおすには：
-
-```bash
-uv run scripts/download_photos.py
-```
-
 ## ファイル構成
 
 ```
