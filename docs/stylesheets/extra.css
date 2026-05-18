@@ -35,3 +35,10 @@
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
+
+/* ダークモードで SVG（黒の線・テキストが焼き込まれている）が
+   見えなくなるのを防ぐため、明るい背景でラップする */
+[data-md-color-scheme="slate"] .md-typeset figure img[src$=".svg"] {
+  background-color: #fff;
+  padding: 0.5em;
+}
