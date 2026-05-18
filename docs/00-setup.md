@@ -7,10 +7,22 @@
 
 ブラウザで以下にアクセスしてください。
 
-<https://mermaid.live/>
+<https://mermaid.ai/live/>
 
 これは Mermaid 公式が提供している **オンラインエディタ** です。
 左側にコードを書くと、右側に図がリアルタイムで表示されます。
+
+!!! warning "「Choose your editor」というダイアログが出たら"
+    初回アクセス時に、左に **Mermaid Plus（Recommended）**、右に
+    **Open Source** の2択ダイアログが出ることがあります。
+
+    無料で使いたい場合は **右の「Open Source」側** を選んでください
+    （`Code only, no login, always free` と書かれている方）。  
+    左の Mermaid Plus は AI 機能や共同編集が付く **有料プラン**（無料
+    トライアル後は課金）なので、本チュートリアルでは不要です。
+
+    Open Source 側のボタンはどちらでも構いませんが、
+    **「Continue to mermaid.ai/live」** が今後の正式 URL です。
 
 !!! note "「ライブエディタ」と書いてあるものは全部同じ仲間"
     Mermaid Live Editor の他にも、GitHub、Notion、Obsidian、VS Code、

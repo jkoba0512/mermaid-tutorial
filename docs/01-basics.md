@@ -18,7 +18,7 @@ Mermaid のコードは、必ず以下のような **囲い** の中に書きま
 - これを **コードブロック** または **フェンスドコードブロック** と呼びます
 
 !!! tip "Mermaid Live Editor では囲いは要らない"
-    [Mermaid Live Editor](https://mermaid.live/) は最初から
+    [Mermaid Live Editor](https://mermaid.ai/live/) は最初から
     「Mermaid を書くエリア」と決まっているので、囲いの \`\`\` は
     書きません。**Mermaid のコードだけ** を書きます。  
     一方、GitHub の README や Notion のページに **直接** Mermaid を

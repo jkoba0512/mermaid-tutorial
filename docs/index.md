@@ -72,7 +72,7 @@ flowchart LR
 
 !!! tip "図はその場で動かして覚えるのが速い"
     本文中のコード例は **コピーボタン** でクリップボードに送れます。  
-    [Mermaid Live Editor](https://mermaid.live/) に貼り付けると、即座に
+    [Mermaid Live Editor](https://mermaid.ai/live/) に貼り付けると、即座に
     別の図に書き換えて結果を確認できます。  
     第0章で具体的な手順を案内します。
 

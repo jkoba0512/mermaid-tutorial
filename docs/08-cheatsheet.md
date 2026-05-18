@@ -143,7 +143,7 @@ gantt
 
 開いてすぐ試せる場所：
 
-- [Mermaid Live Editor](https://mermaid.live/) — 公式、URL 共有可
+- [Mermaid Live Editor](https://mermaid.ai/live/) — 公式、URL 共有可
 
 ## よく使う Mermaid 対応サービス
 
